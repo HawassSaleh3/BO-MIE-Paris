@@ -165,6 +165,8 @@ window.I18N = {
     "band.p": "Order online for click & collect, or simply push the door at 48 rue de Rivoli.",
     "band.cta1": "Order online",
     "band.cta2": "Plan your visit",
+    "bandq.quote": "Good bread takes time. Good coffee takes time. A good conversation takes just a little more.",
+    "bandq.attr": "— The team at 48 rue de Rivoli",
 
     /* ---- creations page ---- */
     "cr.crumb": "Our creations",
@@ -423,6 +425,8 @@ window.I18N = {
     "band.p": "Commandez en ligne en click & collect, ou poussez simplement la porte du 48 rue de Rivoli.",
     "band.cta1": "Commander en ligne",
     "band.cta2": "Préparer votre visite",
+    "bandq.quote": "Le bon pain prend du temps. Le bon café aussi. Une bonne conversation, un tout petit peu plus.",
+    "bandq.attr": "— L'équipe du 48 rue de Rivoli",
 
     "cr.crumb": "Nos créations",
     "cr.h1": "La tradition française, avec un regard nouveau",

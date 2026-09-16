@@ -17,7 +17,7 @@
 <link rel="apple-touch-icon" href="assets/img/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Karla:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body data-page="home" data-title-key="meta.home.title" data-desc-key="meta.home.desc">
@@ -63,6 +63,16 @@
     </div>
     <figure class="hero__media" style="margin:0">
       <img src="assets/img/hero.jpg" alt="" data-i18n-attr="alt:hero.alt" width="900" height="1125" fetchpriority="high">
+      <svg class="hero__stamp" viewBox="0 0 120 120" aria-hidden="true">
+        <defs>
+          <path id="stampPath" d="M60 60 m -44 0 a 44 44 0 1 1 88 0 a 44 44 0 1 1 -88 0"/>
+        </defs>
+        <circle class="stamp-bg" cx="60" cy="60" r="57"/>
+        <circle cx="60" cy="60" r="51" fill="none" stroke="rgba(28,23,19,.28)" stroke-width="1"/>
+        <circle cx="60" cy="60" r="29" fill="none" stroke="rgba(28,23,19,.16)" stroke-width="1"/>
+        <text class="stamp-text"><textPath href="#stampPath">BO&amp;MIE · PARIS · RIVOLI · 2017 ·</textPath></text>
+        <text class="stamp-mid" x="60" y="68" text-anchor="middle">B&amp;M</text>
+      </svg>
       <figcaption class="hero__badge"><span class="dot" data-hours-dot></span><span data-i18n="hero.badge"></span></figcaption>
     </figure>
   </div>
@@ -127,7 +137,7 @@
         </div>
       </article>
       <article class="card reveal">
-        <div class="card__media"><img src="assets/img/coffee.jpg" alt="" loading="lazy" width="800" height="600"></div>
+        <div class="card__media"><img src="assets/img/travel.jpg" alt="" loading="lazy" width="800" height="600"></div>
         <div class="card__body">
           <span class="card__tag" data-i18n="cat.5.tag"></span>
           <h3 data-i18n="cat.5.t"></h3>
@@ -200,21 +210,30 @@
       </li>
       <li>
         <span class="sig__n">03</span>
-        <img class="sig__img" src="assets/img/coffee.jpg" alt="" loading="lazy" width="64" height="64">
+        <img class="sig__img" src="assets/img/cookie.jpg" alt="" loading="lazy" width="64" height="64">
         <span><span class="sig__t" data-i18n="sig.3.t"></span><br><span class="sig__d" data-i18n="sig.3.d"></span></span>
       </li>
       <li>
         <span class="sig__n">04</span>
-        <img class="sig__img" src="assets/img/hero.jpg" alt="" loading="lazy" width="64" height="64">
+        <img class="sig__img" src="assets/img/cheesecake.jpg" alt="" loading="lazy" width="64" height="64">
         <span><span class="sig__t" data-i18n="sig.4.t"></span><br><span class="sig__d" data-i18n="sig.4.d"></span></span>
       </li>
       <li>
         <span class="sig__n">05</span>
-        <img class="sig__img" src="assets/img/bread.jpg" alt="" loading="lazy" width="64" height="64">
+        <img class="sig__img" src="assets/img/kouign.jpg" alt="" loading="lazy" width="64" height="64">
         <span><span class="sig__t" data-i18n="sig.5.t"></span><br><span class="sig__d" data-i18n="sig.5.d"></span></span>
       </li>
     </ul>
   </div>
+</section>
+
+<section class="band">
+  <img src="assets/img/interior.jpg" alt="" loading="lazy">
+  <div class="band__overlay"></div>
+  <blockquote class="container">
+    <p data-i18n="bandq.quote"></p>
+    <footer data-i18n="bandq.attr"></footer>
+  </blockquote>
 </section>
 
 <section class="section">
@@ -349,7 +368,7 @@
   </div>
 </section>
 
-<section class="section section--ink">
+<section class="section section--ink has-photo">
   <div class="container center">
     <h2 data-i18n="band.h2">Hungry already?</h2>
     <p class="lead" data-i18n="band.p">Order online, or push the door at 48 rue de Rivoli.</p>
@@ -432,6 +451,7 @@
         </ul>
       </div>
     </div>
+    <div class="footer__word" aria-hidden="true">BO&amp;MIE</div>
     <div class="footer__bottom">
       <span>© <span data-year>2026</span> BO&amp;MIE. <span data-i18n="ft.rights">All rights reserved.</span></span>
       <span data-i18n="ft.made">48 rue de Rivoli, 75004 Paris</span>
